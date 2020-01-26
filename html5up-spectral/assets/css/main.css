@@ -3668,20 +3668,20 @@ input, select, textarea {
 			z-index: 1;
 		}
 
-			#banner .more:after {
-				background-image: url("images/arrow.svg");
-				background-position: center;
-				background-repeat: no-repeat;
-				background-size: contain;
-				bottom: 4em;
-				content: '';
-				display: block;
-				height: 1.5em;
-				left: 50%;
-				margin: 0 0 0 -0.75em;
-				position: absolute;
-				width: 1.5em;
-			}
+		#banner .more:after {
+			background-image: url("images/arrow.svg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: contain;
+			bottom: 4em;
+			content: '';
+			display: block;
+			height: 1.5em;
+			left: 50%;
+			margin: 0 0 0 -0.75em;
+			position: absolute;
+			width: 1.5em;
+		}
 
 		#banner:after {
 			pointer-events: none;
