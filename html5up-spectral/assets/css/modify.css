@@ -18,4 +18,7 @@
   height: 280px;
   border-radius: 50%;
   border: 1px solid white;
+  background-image: url("../../images/profile_headshot.jpg");
+  background-position: center;
+  background-size: cover;
 }
