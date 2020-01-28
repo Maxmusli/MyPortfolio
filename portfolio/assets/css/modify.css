@@ -179,7 +179,7 @@
 
 @media only screen and (max-width: 768px){
   .container {
-    width: 750px;
+    width: 100%;
   }
 
   .about-me {
@@ -199,6 +199,9 @@
     visibility: hidden;
   }
 
+  .skill-logo {
+    padding: 0;
+  }
 }
 @media only screen and (max-width: 992px){
   .container {
