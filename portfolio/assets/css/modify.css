@@ -1,6 +1,6 @@
-#one {
+/* #one {
   padding: 3em 0 6em 0;
-}
+} */
 
 .about-me {
   display: flex;
@@ -177,17 +177,35 @@
   padding: 8px;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 768px){
   .container {
     width: 750px;
   }
+
+  .about-me {
+    display: block;
+    width: 100%;
+  }
+
+  .story {
+    width: 100%;
+  }
+
+  .profile-pic {
+    margin: 0 auto;
+  }
+
+  #one .more {
+    visibility: hidden;
+  }
+
 }
-@media only screen and (min-width: 992px){
+@media only screen and (max-width: 992px){
   .container {
     width: 970px;
   }
 }
-@media only screen and (min-width: 1280px){
+@media only screen and (max-width: 1280px){
   .container {
     width: 90%;
   }
