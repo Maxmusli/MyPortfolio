@@ -213,3 +213,13 @@
     width: 90%;
   }
 }
+
+.contact > h2 {
+  font-size: 26px;
+}
+
+.top > a {
+  font-size: 30px;
+  text-decoration: none;
+  border: none;
+}
