@@ -223,3 +223,20 @@
   text-decoration: none;
   border: none;
 }
+
+.nav-links {
+  padding: 0 100px;
+  float: right;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links > a {
+  transition: opacity 0.2s ease;
+  height: inherit;
+  left: 1.25em;
+  line-height: inherit;
+  position: absolute;
+  top: 0;
+}

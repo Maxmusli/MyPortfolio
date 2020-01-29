@@ -3463,7 +3463,7 @@ input, select, textarea {
 			height: inherit;
 			left: 1.25em;
 			line-height: inherit;
-			position: absolute;
+			/* position: absolute; */
 			top: 0;
 		}
 
